@@ -21,7 +21,7 @@ header {
 }
 a {
     text-decoration: none;
-    text-decoration-color: #626262;
+    color: #626262;
     font-size: 14px;
 }
 .hover:hover {
@@ -40,19 +40,19 @@ a {
 .underfoto {
     margin-top: 30px;
     font-size: 14px;
-    text-decoration-color: #b4ad9e;
+    color: #b4ad9e;
     font-family: 'Ubuntu', sans-serif;
     text-align: left;
 }
 h2 { 
     font-size: 30px;
-    text-decoration-color: #626262;
+    color: #626262;
     font-family: 'Playfair Display', serif;
     margin-top: 30px;
 }
 .text {
     font-size: 14px;
-    text-decoration-color: #626262;
+    color: #626262;
     font-family: 'Playfair Display', serif;
     margin-top: 30px;
     margin-bottom: 120px;
@@ -63,7 +63,7 @@ footer {
 }
 button {
     font-size: 20px;
-    text-decoration-color: #626262;
+    color: #626262;
     font-family: 'Playfair Display', serif;
 
 
