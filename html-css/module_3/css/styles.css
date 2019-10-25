@@ -15,6 +15,8 @@ header {
 }
 .site-navigation li {
     display: inline-block;
+    text-transform: uppercase;
+    font-family: 'Playfair Display', serif;
 }
 .site-navigation li:not(:last-child) {
     margin-right: 125px;
