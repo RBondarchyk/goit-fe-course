@@ -35,7 +35,6 @@ header {
     font-weight: bold;
     font-size: 14px;
     color: black;
-    text-decoration: none;
     float: left;
     margin-right: 30px;
 }
@@ -54,7 +53,7 @@ header {
     color: #515151;
     font-family: 'Roboto', sans-serif;
     text-align: center;
-    margin-bottom: 70px;
+    margin-bottom: 90px;
 }
 h2:after {
     content: "";
@@ -64,32 +63,30 @@ h2:after {
     background-color: #1ABC9C;
     margin: 30px auto;
 }
+.clearfixproduct {
+    min-height: 676px;
+    margin-bottom: 104px;
+}
 .boxproduct {
     display: inline-block;
     width: 256px;
     height: 322px;
     margin-right: 24px;
-    margin-bottom: 100px;
+    margin-bottom: 30px;
 }
 .imgproduct {
     display: block;
     background-color: #E9F0FD;
     margin-right: 30px;
 }
-.clearfixprice {
-    float: left;
-    width: 256px;
-    height: 40px;
-}
 .product {
     text-transform: uppercase;
     font-size: 18px;
     font-family: 'Roboto', sans-serif;
     float: left;
-    font-weight: bold;
     color: white;
     background-color: #323232;
-    width: 190px;
+    width: 244px;
     height: 40px;
     line-height: 40px;
     padding-left: 12px;
@@ -99,10 +96,9 @@ h2:after {
     font-size: 18px;
     font-weight: bold;
     font-family: 'Roboto', sans-serif;
-    float: left;
-    font-weight: bold;
+    float: right;
     color: white;
-    background-color: rgba(0, 0, 0, 0.5);
+    background-color: rgba(255, 255, 255, 0.5);
     width: 54px;
     height: 40px;
     line-height: 40px;
@@ -116,13 +112,10 @@ h2:after {
 .boxproduct:hover .product {
     background-color: rgba(26, 188, 156);
 }
-.boxproduct:hover .price {
-    background-color: rgba(26, 188, 156, 0.5);
-}
 .boxarticle {
     display: inline-block;
     width: 350px;
-    height: min496px;
+    min-height: 496px;
     margin-right: 26px;
     margin-bottom: 46px;
 }
@@ -155,6 +148,7 @@ p {
     color: #555252;
     font-family: 'Open Sans', sans-serif;
     margin-bottom: 16px;
+    line-height: 200%;
 }
 button {
     font-size: 16px;
