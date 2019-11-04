@@ -16,32 +16,36 @@ header {
     font-family: 'Roboto', sans-serif;
     text-transform: uppercase;
     float: left;
+    font-weight: 300;
     margin-top: 38px;
 }
 .sitelogo::first-letter {
     font-size: 30px;
     font-family: 'Roboto', sans-serif;
+    font-weight: 500;
     color: #1ABC9C;
 }
 .clearfix {
     float: right;
     width: 466px;
-    margin-top: 42px;
+    margin-top: 44px;
 }
 .navigation {
-    text-decoration: none;
     font-family: 'Open Sans', sans-serif;
     text-transform: uppercase;
     font-weight: bold;
     font-size: 14px;
-    color: black;
     float: left;
     margin-right: 30px;
+}
+.linknav {
+    text-decoration: none;
+    color: black;
 }
 .last {
     margin-right: 0;
 }
-.navigation:hover {
+.linknav:hover {
     color: #1ABC9C;
 }
 .heading {
@@ -63,8 +67,7 @@ h2:after {
     background-color: #1ABC9C;
     margin: 30px auto;
 }
-.clearfixproduct {
-    min-height: 676px;
+.clearfix-product-box {
     margin-bottom: 104px;
 }
 .boxproduct {
@@ -80,28 +83,33 @@ h2:after {
     margin-right: 30px;
 }
 .product {
+    width: 256px;
+    height: 40px;
+    float: initial;
+    background-color: #323232;
+}
+.link-product {
+    float: left;
+    line-height: 40px;
+    padding-left: 12px;
     text-transform: uppercase;
     font-size: 18px;
     font-family: 'Roboto', sans-serif;
-    float: left;
     color: white;
-    background-color: #323232;
-    width: 244px;
-    height: 40px;
-    line-height: 40px;
-    padding-left: 12px;
+    width: 190px;
+    font-weight: 600;
 }
 .price {
+    float: right;
     text-align: center;
     font-size: 18px;
-    font-weight: bold;
     font-family: 'Roboto', sans-serif;
-    float: right;
     color: white;
     background-color: rgba(255, 255, 255, 0.5);
     width: 54px;
     height: 40px;
     line-height: 40px;
+    font-weight: 600;
 }
 .price::before {
     content: "\0024";
@@ -115,7 +123,6 @@ h2:after {
 .boxarticle {
     display: inline-block;
     width: 350px;
-    min-height: 496px;
     margin-right: 26px;
     margin-bottom: 46px;
 }
@@ -131,7 +138,7 @@ h4 {
     font-family: 'Open Sans', sans-serif;
     font-weight: bold;
     margin-bottom: 30px;
-    float: left;
+    line-height: 200%;
 }
 h4:after {
     content: "";
