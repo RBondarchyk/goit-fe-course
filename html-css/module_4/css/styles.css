@@ -2,8 +2,12 @@
     width: 1110px;
     margin: 0 auto;
 }
+.clearfix-nav {
+    width: 1110px;
+    height: 94px;
+    margin-bottom: 66px;
+}
 header {
-    height: 98px;
     margin-bottom: 66px;
 }
 .linklogo {
@@ -25,7 +29,7 @@ header {
     font-weight: 500;
     color: #1ABC9C;
 }
-.clearfix {
+.clearfix-menu {
     float: right;
     width: 466px;
     margin-top: 44px;
@@ -47,9 +51,6 @@ header {
 }
 .linknav:hover {
     color: #1ABC9C;
-}
-.heading {
-    height: 130px;
 }
 .heading {
     text-transform: uppercase;
@@ -85,10 +86,10 @@ h2:after {
 .product {
     width: 256px;
     height: 40px;
-    float: initial;
     background-color: #323232;
 }
 .link-product {
+    text-decoration: none;
     float: left;
     line-height: 40px;
     padding-left: 12px;
@@ -132,7 +133,7 @@ h2:after {
 .imgarticle {
     margin-bottom: 14px;
 }
-h4 {
+.heading-article {
     font-size: 18px;
     color: #555252;
     font-family: 'Open Sans', sans-serif;
@@ -140,7 +141,7 @@ h4 {
     margin-bottom: 30px;
     line-height: 200%;
 }
-h4:after {
+.heading-article:after {
     content: "";
     display: block;
     width: 136px;
