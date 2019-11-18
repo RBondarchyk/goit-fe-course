@@ -1,0 +1,245 @@
+* {
+    box-sizing: border-box;
+  }
+.container {
+    width: 940px;
+    margin: 0 auto;
+}
+header {
+    height: 110px;
+    width: 100%;
+    margin-bottom: 80px;
+}
+.navigation {
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+@font-face {
+    font-family: "Wisdom";
+    src: url(../font/Wisdom/Wisdom-Script.woff) format("woff");
+    font-weight: 500;
+    font-style: italic;
+}
+.site-logo-link {
+    text-decoration: none;
+    font-size: 26px;
+    font-family: "Wisdom", sans-serif;
+    color: rgb(254, 209, 54);
+}
+@font-face {
+    font-family: "Nexa bold";
+    src: url(../font/Nexa/Nexa-Bold.woff) format("woff");
+    font-weight: 600;
+    font-style: normal;
+}
+.navigation-menu {
+    font-size: 14px;
+    text-transform: uppercase;
+    width: 486px;
+    display: flex;
+    justify-content: space-between;
+    font-family: "Nexa bold";
+    font-weight: 600;
+}
+.navigation-menu-link {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+.navigation-menu-link:hover {
+    color: rgb(254, 209, 54)
+}
+.header-box-section {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 80px;
+    margin-bottom: 76px;
+}
+@font-face {
+    font-family: "Montserrat bold";
+    src: url(../font/Montserrat/Montserrat-Bold.woff) format("woff");
+    font-weight: 600;
+    font-style: normal;
+}
+.header-section {
+    font-size: 40px;
+    text-transform: uppercase;
+    font-family: "Montserrat bold";
+    font-weight: 600;
+    font-style: normal;
+    color: rgb(0, 0, 0);
+    margin-bottom: 20px;
+}
+@font-face {
+    font-family: "Droid";
+    src: url(../font/Droid/DroidSerif-Italic.woff) format("woff");
+    font-style: italic;
+    font-weight: 400;
+}
+.paragraph-section {
+    font-family: "Droid";
+    font-size: 16px;
+    font-style: italic;
+    font-weight: 400;
+    color: rgba(119, 119, 119, 255);
+}
+.box-services {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 120px;
+}
+.section-part-1, .section-part-2, .section-part-3 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 274px;
+}
+.image-icon-basket {
+    --bg-image-icon: url(../img/icon/Icon-Basket@1X.png);
+}
+.image-icon-computer {
+    --bg-image-icon: url(../img/icon/Icon-Laptop@1X.png);
+}
+.image-icon-lock {
+    --bg-image-icon: url(../img/icon/Icon-Locked@1X.png);
+}
+.image-icon-basket, .image-icon-computer, .image-icon-lock {
+    content: "";
+    display: block;
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+    border: 2px solid rgb(254, 209, 54);
+    background: var(--bg-image-icon) no-repeat center;
+    margin-bottom: 20px;
+}
+.header-section-part-1, .header-section-part-2, .header-section-part-3 {
+    text-transform: uppercase;
+    font-family: "Montserrat bold";
+    font-weight: 600;
+    font-style: normal;
+    margin-bottom: 20px;
+    color: rgb(0, 0, 0);
+}
+@font-face {
+    font-family: "Roboto medium";
+    src: url(../font/RobotoSlab/Roboto-Medium.woff) format("woff");
+    font-weight: 400;
+    font-style: normal;
+}
+.paragraph-section-part-1,.paragraph-section-part-2,.paragraph-section-part-3 {
+    font-size: 14px;
+    font-family: "Roboto bold";
+    font-weight: 400;
+    font-style: normal;
+    color: rgba(119, 119, 119, 255);
+    line-height: 150%;
+    text-align: center;
+}
+.bg {
+    width: 100%;
+    height: 660px;
+    background: url(../img/Map\ Image@1X.png) no-repeat bottom 20px right, #222;
+    display: inline-block;
+}
+.header-box-section-form {
+    margin-top: 80px;
+}
+.header-box-section {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 80px;
+}
+.header-section-form {
+    font-size: 40px;
+    text-transform: uppercase;
+    font-family: "Montserrat bold";
+    font-weight: 600;
+    font-style: normal;
+    color: rgb(255, 255, 255);
+    margin-bottom: 20px;
+}
+.paragraph-section-form {
+    color: white;
+}
+.form-box {
+    width: 100%;
+    height: 216px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 28px;
+}
+.form-box-part-1 {
+    width: 456px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.name-user, .email-user, .subject-user {
+    height: 50px;
+    border: none;
+    border-radius: 5px;
+    text-transform: uppercase;
+    padding-left: 20px;
+    font-family: "Montserrat bold";
+    font-size: 14px;
+    font-weight: 400;
+}
+.form-box-part-2 {
+    width: 456px;
+}
+textarea {
+    width: 100%;
+    height: 100%;
+    border: none;
+    border-radius: 5px;
+    text-transform: uppercase;
+    padding: 18px;
+    resize: none;
+    font-family: "Montserrat bold";
+    font-size: 14px;
+    font-weight: 400;
+}
+.name-user:invalid:focus {
+    outline: 2px solid rgb(255, 0, 0);
+    outline-offset: -4px; 
+}
+.name-user:valid:focus {
+    outline: 2px solid rgb(0, 128, 0);
+    outline-offset: -4px; 
+}
+.email-user:invalid:focus {
+    outline: 2px solid rgb(255, 0, 0);
+    outline-offset: -4px; 
+}
+.email-user:valid:focus {
+    outline: 2px solid rgb(0, 128, 0);
+    outline-offset: -4px; 
+}
+.comment:invalid:focus {
+    outline: 2px solid rgb(255, 0, 0);
+    outline-offset: -4px; 
+}
+.comment:valid:focus {
+    outline: 2px solid rgb(0, 128, 0);
+    outline-offset: -4px; 
+}
+.button-box {
+    text-align: center;
+}
+.button {
+    width: 240px;
+    height: 66px;
+    border: none;
+    border-radius: 5px;
+    text-transform: uppercase;
+    padding: 18px;
+    background-color: rgb(254, 209, 54);
+    color: rgb(255, 255, 255);
+}

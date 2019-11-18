@@ -31,6 +31,7 @@
     font-size: 14px;
     font-family: 'Montserrat', sans-serif;
     font-weight: 600;
+    text-transform: uppercase;
 }
 .link-nav-menu:hover, .link-footer:hover {
     color: rgb(243, 129, 129);
@@ -175,9 +176,7 @@
     transition-delay: 0s;
 }
 .social-list {
-    position: absolute;
     width: 224px;
-    height: 56px;
     display: flex;
 }
 .social-list-item {
@@ -260,13 +259,19 @@ form {
     width: 230px;
     height: 36px;
     padding-left: 12px;
+    color: rgb(0, 0, 0);
+    border: 1px solid;
+    border-right: none;
+    border-color: rgb(204, 204, 204);
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-style: italic;
+}
+.email::placeholder {
     font-family: 'Roboto', sans-serif;
     font-weight: 400;
     font-style: italic;
     color: rgb(204, 204, 204);
-    border: 1px solid;
-    border-right: none;
-    border-color: rgb(204, 204, 204);
 }
 .button-subcribe {
     width: 150px;
