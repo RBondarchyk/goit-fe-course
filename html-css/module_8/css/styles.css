@@ -208,6 +208,7 @@ button {
     padding: 12px 40px;
     color: rgb(255, 78, 80);
 }
+
 @media (min-width: 768px) {
 .conteiner {
     max-width: 768px;
@@ -321,6 +322,7 @@ button {
     padding: 12px 32px;
 }
 }
+
 @media (min-width: 942px) {
 .conteiner {
     max-width: 942px;
