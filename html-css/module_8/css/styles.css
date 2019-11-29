@@ -5,7 +5,7 @@
 .banner {
     display: flex;
     height: 540px;
-    background: url(/img/vectorsmartobject.png) no-repeat center black;
+    background: url(/img/banner.png) no-repeat center black;
     background-size: cover;
     filter: contrast(1.2);
     flex-direction: column;
@@ -319,7 +319,7 @@
 .footer-box {
     margin-bottom: 54px;
 }
-button {
+.link-other-partners {
     padding: 12px 32px;
 }
 }
@@ -433,7 +433,7 @@ button {
 .footer-box {
     margin-bottom: 54px;
 }
-button {
+.link-other-partners {
     padding: 12px 32px;
 }
 }
