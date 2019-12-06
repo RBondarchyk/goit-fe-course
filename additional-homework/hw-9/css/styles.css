@@ -1,0 +1,126 @@
+.container {
+    max-width: 768px;
+    margin: 0 auto;
+}
+.row-1 {
+    display: flex;
+    flex-wrap: row wrap;
+    flex-direction: column;
+    margin-bottom: 50px;
+}
+[class="col-"] {
+    width: 50%;
+    height: 100px;
+}
+.content {
+    text-align: center;
+    font-size: 50px;
+    background-color: burlywood;
+}
+.sidebar {
+    text-align: center;
+    font-size: 50px;
+    background-color: cornflowerblue;
+}
+.row-2 {
+    display: flex;
+    flex-wrap: row wrap;
+    flex-direction: column;
+    margin-bottom: 50px;
+}
+.part-1 {
+    text-align: center;
+    font-size: 30px;
+    background-color: pink;
+}
+.part-2 {
+    text-align: center;
+    font-size: 30px;
+    background-color: palevioletred;
+}
+.row-3 {
+    display: flex;
+    flex-wrap: row wrap;
+    flex-direction: column;
+    margin-bottom: 50px;
+}
+.part-3 {
+    text-align: center;
+    font-size: 25px;
+    background-color: yellowgreen;
+    line-height: 100px;
+}
+.part-4 {
+    text-align: center;
+    font-size: 25px;
+    background-color: yellow;
+    line-height: 100px;
+}
+.part-5 {
+    text-align: center;
+    font-size: 25px;
+    background-color: pink;
+}
+.part-6 {
+    text-align: center;
+    font-size: 25px;
+    background-color: peru;
+}
+.row {
+    display: flex;
+    flex-wrap: row wrap;
+}
+.row-5 {
+    display: flex;
+    flex-wrap: row wrap;
+}
+.img-1 {
+    text-align: center;
+    height: 100px;
+    background-image: url(https://placeimg.com/384/100/nature);
+}
+.img-2 {
+    text-align: center;
+    height: 50px;
+    background-image: url(https://placeimg.com/384/50/any);
+}
+.img-3 {
+    text-align: center;
+    height: 50px;
+    background-image: url(https://placeimg.com/192/50/arch);
+}
+.img-4 {
+    text-align: center;
+    height: 250px;
+    background-image: url(https://placeimg.com/192/250/animals);
+}
+.img-5 {
+    text-align: center;
+    height: 200px;
+    background-image: url(https://placeimg.com/192/200/tech);
+}
+.img-6 {
+    text-align: center;
+    height: 200px;
+    background-image: url(https://placeimg.com/384/200/nature);
+}
+@media (min-width: 768px) {
+.row-1 {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+}
+.row-2 {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+}
+.row-3 {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+.part-3, .part-4 {
+    min-height: 100px;
+}
+}
