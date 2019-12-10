@@ -5,7 +5,7 @@
 .banner {
     display: flex;
     height: 540px;
-    background: url(/img/banner.png) no-repeat center black;
+    background: url(../img/banner.png) no-repeat center black;
     background-size: cover;
     filter: contrast(1.2);
     flex-direction: column;
@@ -147,18 +147,18 @@
 }
 .team-icon-image-1 {
     --color: rgb(255, 78, 80);
-    --icon-image: url(/img/icon/128.png);
+    --icon-image: url(../img/icon/128.png);
 }
 .team-icon-image-2 {
-    --icon-image: url(/img/icon/155.png);
+    --icon-image: url(../img/icon/155.png);
     --color: rgb(255, 165, 7);
 }
 .team-icon-image-3 {
-    --icon-image: url(/img/icon/153.png);
+    --icon-image: url(../img/icon/153.png);
     --color: rgb(28, 215, 173);
 }
 .team-icon-image-4 {
-    --icon-image: url(/img/icon/170.png);
+    --icon-image: url(../img/icon/170.png);
     --color: rgb(78, 115, 219);
 }
 .team-name-link {
