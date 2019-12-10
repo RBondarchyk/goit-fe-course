@@ -25,7 +25,7 @@
 }
 @font-face {
     font-family: "Montserrat";
-    src: url(/font/Montserrat/Montserrat-Bold.woff) format("woff");
+    src: url(./font/Montserrat/Montserrat-Bold.woff) format("woff");
     font-weight: 400;
     font-style: normal;
 }
@@ -202,7 +202,7 @@ button {
 }
 @font-face {
     font-family: "Roboto";
-    src: url(/font/Roboto/Roboto-Light.woff) format("woff");
+    src: url(./font/Roboto/Roboto-Light.woff) format("woff");
     font-style: normal;
     font-weight: 300;
 }
