@@ -1,11 +1,11 @@
-.conteiner {
+.container {
     max-width: 320px;
     margin: 0 auto;
 }
 .banner {
     display: flex;
     height: 540px;
-    background: url(/img/VectorSmartObject.png) no-repeat center black;
+    background: url(/img/banner.png) no-repeat center black;
     background-size: cover;
     filter: contrast(1.2);
     flex-direction: column;
@@ -13,9 +13,7 @@
     margin-bottom: 72px;
 }
 .navigation {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+    text-align: center;
     margin-top: 30px;
     margin-bottom: 38px;
 }
@@ -47,13 +45,14 @@
 }
 .log-in:hover,
  .sign-up:hover {
-    text-decoration: none;
-    color: rgb(255, 255, 255);
     border: 2px solid rgb(255, 255, 255);
     border-radius: 36px;
     padding: 5px 10px;
     transition-duration: 100ms;
     transition-timing-function: linear;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+
 }
 .site-logo {
     text-decoration: none;
@@ -100,6 +99,8 @@
     font-size: 14px;
     font-weight: 400;
     font-style: normal;
+}
+.banner-section-link {
     background-color: rgb(255, 78, 80);
     border-radius: 36px;
     padding: 12px 40px;
@@ -108,9 +109,8 @@
     text-decoration: none;
     color: rgb(255, 255, 255);
 }
-.team-box-all {
+.align-self-center {
     display: flex;
-    flex-wrap: wrap;
     flex-direction: column;
 }
 .team-box-header {
@@ -122,20 +122,19 @@
     margin-bottom: 1em;
     text-align: center;
 }
-.team-box {
+.team-1, .team-2, .team-3, .team-4 {
     display: flex;
-    flex-wrap: wrap;
     flex-direction: column;
     align-items: center;
 }
- .team-part-1, .team-part-2, .team-part-3, .team-part-4 {
+.team-box {
+    display: flex;
     width: 68.75%;
     min-height: 210px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
     position: relative;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
 }
 .image-box {
     width: 122px;
@@ -148,24 +147,20 @@
 }
 .team-icon-image-1 {
     --color: rgb(255, 78, 80);
-    --icon-image: url(/img/icon/Shape\ 128@1X.png);
+    --icon-image: url(/img/icon/128.png);
 }
 .team-icon-image-2 {
-    --icon-image: url(/img/icon/Shape\ 155@1X.png);
+    --icon-image: url(/img/icon/155.png);
     --color: rgb(255, 165, 7);
 }
 .team-icon-image-3 {
-    --icon-image: url(/img/icon/Shape\ 153@1X.png);
+    --icon-image: url(/img/icon/153.png);
     --color: rgb(28, 215, 173);
 }
 .team-icon-image-4 {
-    --icon-image: url(/img/icon/Shape\ 170@1X.png);
+    --icon-image: url(/img/icon/170.png);
     --color: rgb(78, 115, 219);
 }
-/* .team-icon-image-1, .team-icon-image-2, .team-icon-image-3,.team-icon-image-4 {
-    background: var(--icon-image) no-repeat center;
-    background-color: var(--color);
-} */
 .team-name-link {
     text-decoration: none;
     color: rgba(51, 51, 51, 255);
@@ -183,8 +178,8 @@
     content: "";
     width: 32px;
     height: 32px;
-    top: 94px;
-    right: 60px;
+    top: 92px;
+    right: 28px;
     border: 4px solid rgb(255, 255, 255);
     border-radius: 50%;
     background: var(--icon-image) no-repeat center;
@@ -192,6 +187,18 @@
 }
 .team-name {
     margin-bottom: 1em;
+}
+.footer-box {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 54px;
+}
+button {
+    border-radius: 36px;
+    background-color: rgb(255, 255, 255);
+    border: 2px solid rgb(255, 78, 80);
+    padding: 12px 40px;
+    color: rgb(255, 78, 80);
 }
 @font-face {
     font-family: "Roboto";
@@ -208,249 +215,33 @@
     line-height: 123%;
     margin-bottom: 2em;
 }
-.footer-box {
-    display: flex;
-    justify-content: center;
-    margin-bottom: 54px;
-}
-button {
-    border-radius: 36px;
-    background-color: rgb(255, 255, 255);
-    border: 2px solid rgb(255, 78, 80);
-    padding: 12px 40px;
-    color: rgb(255, 78, 80);
-}
- @media (min-width: 768px) {
-.conteiner {
-    max-width: 768px;
-    margin: 0 auto;
-}
-}
-
-
-/* @media (min-width: 768px) {
-.conteiner {
-    max-width: 768px;
-    margin: 0 auto;
-}
-.banner {
-    display: flex;
-    height: 700px;
-    background-size: cover;
-    flex-direction: column;
-    justify-content: flex-start;
-    margin-bottom: 72px;
+@media (min-width: 768px) {
+.container {
+max-width: 768px;
 }
 .navigation {
     display: flex;
-    width: 670px;
     flex-direction: row-reverse;
     align-items: baseline;
-    justify-content: space-between;
-    margin-top: 5.71%;
-    margin-bottom: 21%;
 }
 .button-box {
-    margin-bottom: 0px;
+    align-content: flex-end;
 }
-.banner-section {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-.banner-section-header {
-    width: 70.06%;
-    color: rgba(255, 255, 255, 255);
-    font-family: "Montserrat";
-    font-size: 50px;
-    line-height: 120%;
-    font-weight: 400;
-    font-style:normal;
-    text-transform: uppercase;
-    text-align: center;
-    margin-bottom: 5.71%;
-}
-.banner-section-paragraph {
-    width: 100%;
-    color: rgb(255, 255, 255);
-    font-family: "Roboto";
-    font-style: normal;
-    font-weight: 300;
-    font-size: 24px;
-    margin-bottom: 32px;
-    text-align: center;
-    margin-bottom: 5.71%;
-}
-.banner-section-link {
-    text-decoration: none;
-    color: rgb(255, 255, 255);
-    font-family: "Montserrat";
-    font-size: 14px;
-    font-weight: 400;
-    font-style: normal;
-}
-.banner-section-link {
-    background-color: rgb(255, 78, 80);
-    border-radius: 36px;
-    padding: 12px 22px;
-}
-.team-box-all {
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: column;
-    width: 61.63%;
-    margin: 0 auto;
-}
-.team-box-header {
-    color: rgba(51, 51, 51, 255);
-    font-family: "Montserrat";
-    font-size: 22px;
-    font-weight: 400;
-    font-style: normal;
-    margin-bottom: 1em;
-    text-align: center;
-}
-.team-box {
-    display: flex;
-    flex-wrap: wrap;
+.align-self-center {
     flex-direction: row;
-    align-items: center;
-    align-items: baseline;
 }
- .team-part-1, .team-part-2, .team-part-3, .team-part-4 {
-    width: 45.99%;
-    min-height: 210px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-}
-.team-part-2 {
-    order: 3;
-}
-.team-part-3 {
-    order: 2;
-}
-.team-part-4 {
-    order: 4;
-}
-.footer-box {
-    margin-bottom: 54px;
-}
-button {
-    padding: 12px 32px;
-}
-} */
- /* @media (min-width: 942px) {
-.conteiner {
-    max-width: 942px;
-    margin: 0 auto;
-}
-.banner {
-    display: flex;
-    height: 700px;
-    background-size: cover;
-    flex-direction: column;
-    justify-content: flex-start;
-    margin-bottom: 72px;
-}
-.navigation {
-    display: flex;
-    width: 924px;
-    flex-direction: row-reverse;
-    align-items: baseline;
-    justify-content: space-between;
-    margin-top: 4%;
-    margin-bottom: 16.50%;
-}
-.button-box {
-    margin-bottom: 0px;
-}
-.banner-section {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-.banner-section-header {
-    width: 70.06%;
-    color: rgba(255, 255, 255, 255);
-    font-family: "Montserrat";
-    font-size: 50px;
-    line-height: 120%;
-    font-weight: 400;
-    font-style:normal;
-    text-transform: uppercase;
-    text-align: center;
-    margin-bottom: 5.14%;
-}
-.banner-section-paragraph {
-    width: 100%;
-    color: rgb(255, 255, 255);
-    font-family: "Roboto";
-    font-style: normal;
-    font-weight: 300;
-    font-size: 24px;
-    margin-bottom: 32px;
-    text-align: center;
-    margin-bottom: 5.71%;
-}
-.banner-section-link {
-    text-decoration: none;
-    color: rgb(255, 255, 255);
-    font-family: "Montserrat";
-    font-size: 14px;
-    font-weight: 400;
-    font-style: normal;
-}
-.banner-section-link {
-    background-color: rgb(255, 78, 80);
-    border-radius: 36px;
-    padding: 12px 22px;
-}
-.team-box-all {
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: column;
-    width: 100%;
-    margin: 0 auto;
-}
-.team-box-header {
-    color: rgba(51, 51, 51, 255);
-    font-family: "Montserrat";
-    font-size: 22px;
-    font-weight: 400;
-    font-style: normal;
-    margin-bottom: 1.5em;
-    text-align: center;
-}
-.team-box {
-    display: flex;
-    flex-wrap: wrap;
+.team-1, .team-3, .team-2, .team-4 {
     flex-direction: row;
     align-items: baseline;
-    justify-content: space-between;
 }
- .team-part-1, .team-part-2, .team-part-3, .team-part-4 {
-    width: 22.29%;
-    min-height: 210px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
+
+.team-box {
+    min-width: 23.79%;
 }
-.team-part-2 {
-    order: 3;
 }
-.team-part-3 {
-    order: 2;
+
+@media (min-width: 992px) {
+    .container {
+max-width: 992px;
 }
-.team-part-4 {
-    order: 4;
 }
-.footer-box {
-    margin-bottom: 54px;
-}
-button {
-    padding: 12px 32px;
-}
-} */
