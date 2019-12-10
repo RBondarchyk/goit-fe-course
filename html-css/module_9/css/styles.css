@@ -2,6 +2,18 @@
     max-width: 320px;
     margin: 0 auto;
 }
+@font-face {
+    font-family: "Roboto";
+    src: url(./font/Roboto/Roboto-Light.woff) format("woff");
+    font-style: normal;
+    font-weight: 300;
+}
+@font-face {
+    font-family: "Montserrat";
+    src: url(./font/Montserrat/Montserrat-Bold.woff) format("woff");
+    font-weight: 400;
+    font-style: normal;
+}
 .banner {
     display: flex;
     height: 540px;
@@ -22,12 +34,6 @@
     width: 158px;
     justify-content: space-between;
     margin-bottom: 130px;
-}
-@font-face {
-    font-family: "Montserrat";
-    src: url(./font/Montserrat/Montserrat-Bold.woff) format("woff");
-    font-weight: 400;
-    font-style: normal;
 }
 .log-in, .sign-up {
     text-decoration: none;
@@ -147,18 +153,18 @@
 }
 .team-icon-image-1 {
     --color: rgb(255, 78, 80);
-    --icon-image: url(./img/icon/128.png);
+    --icon-image: url(../img/icon/128.png);
 }
 .team-icon-image-2 {
-    --icon-image: url(./img/icon/155.png);
+    --icon-image: url(../img/icon/155.png);
     --color: rgb(255, 165, 7);
 }
 .team-icon-image-3 {
-    --icon-image: url(./img/icon/153.png);
+    --icon-image: url(../img/icon/153.png);
     --color: rgb(28, 215, 173);
 }
 .team-icon-image-4 {
-    --icon-image: url(./img/icon/170.png);
+    --icon-image: url(../img/icon/170.png);
     --color: rgb(78, 115, 219);
 }
 .team-name-link {
@@ -199,12 +205,6 @@ button {
     border: 2px solid rgb(255, 78, 80);
     padding: 12px 40px;
     color: rgb(255, 78, 80);
-}
-@font-face {
-    font-family: "Roboto";
-    src: url(./font/Roboto/Roboto-Light.woff) format("woff");
-    font-style: normal;
-    font-weight: 300;
 }
 .team-paragraph {
     color: rgba(102, 102, 102, 255);
