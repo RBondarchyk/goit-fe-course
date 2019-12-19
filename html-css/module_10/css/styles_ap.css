@@ -268,6 +268,9 @@
             justify-content: space-between;
     margin-bottom: 82px;
 }
+img {
+    display: block;
+}
 .team-box__team {
     display: -webkit-box;
     display: -ms-flexbox;
