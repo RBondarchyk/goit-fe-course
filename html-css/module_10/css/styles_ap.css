@@ -8,7 +8,11 @@
 }
 @media 	only screen and (-webkit-min-device-pixel-ratio: 2) {
 .banner  {
-  background-image: url(../img/Layer15@2X.png);
+    background: -webkit-gradient(linear, left bottom, left top, from(rgba(252, 227, 138, .9)), to(rgba(243, 129, 129, .9))), url(../img/Layer15@2X.png) no-repeat center/cover;
+    background: -o-linear-gradient(bottom, rgba(252, 227, 138, .9), rgba(243, 129, 129, .9)), url(../img/Layer15@2X.png) no-repeat center/cover;
+    background: linear-gradient(to top, rgba(252, 227, 138, .9), rgba(243, 129, 129, .9)), url(../img/Layer15@2X.png) no-repeat center/cover;
+    min-width: 100%;
+    min-height: 1000px;
 }
 }
 .container {
