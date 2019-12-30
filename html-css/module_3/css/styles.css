@@ -57,7 +57,7 @@ h2 {
     font-family: 'Playfair Display', serif;
     margin-top: 30px;
     margin-bottom: 120px;
-    line-height: 1.4em;
+    line-height: 200%;
 }
 .button {
     padding-bottom: 70px;
