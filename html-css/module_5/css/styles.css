@@ -1,9 +1,13 @@
 .conteiner {
-    width: 1600px;
+    width: 1110px;
+    margin: 0 auto;
+}
+.banner {
+    width: 100%;
     margin: 0 auto;
 }
 .clearfix-nav {
-    width: 1110px;
+    width: 100%;
     height: 94px;
     margin: 0 auto;
     margin-bottom: 66px;
@@ -246,7 +250,7 @@ h4:after {
 }
 .icon-cart {
     float: left;
-    line-height: 50px;
+    line-height: 30px;
 }
 .text-bottom {
     float: right;
