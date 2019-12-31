@@ -69,19 +69,19 @@ h2:after {
     margin: 30px auto;
 }
 .clearfix-product-box {
+    width: 100%;
+    min-height: 680px;
     margin-bottom: 104px;
 }
 .boxproduct {
-    display: inline-block;
+    float: left;
     width: 256px;
-    height: 322px;
     margin-right: 24px;
     margin-bottom: 30px;
 }
 .imgproduct {
     display: block;
     background-color: #E9F0FD;
-    margin-right: 30px;
 }
 .product {
     width: 256px;
