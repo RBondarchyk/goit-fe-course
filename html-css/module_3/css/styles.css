@@ -13,6 +13,9 @@ header {
     padding-bottom: 76px;
     text-align: center;
 }
+.header_none {
+    display: none;
+}
 .site-navigation li {
     display: inline-block;
     text-transform: uppercase;
@@ -37,25 +40,27 @@ a {
 .middle:nth-child(2n) {
     margin-right: 0;
 }
+.image {
+    margin-bottom: 30px;
+}
 .underfoto {
-    margin-top: 30px;
     font-size: 14px;
     color: #b4ad9e;
     text-align: left;
     text-transform: uppercase;
     font-family: 'Ubuntu', sans-serif;
+    margin-bottom: 30px;
 }
 h2 {
     font-size: 30px;
     color: #626262;
     font-family: 'Playfair Display', serif;
-    margin-top: 30px;
+    margin-bottom: 30px;
 }
 .text {
     font-size: 14px;
     color: #626262;
     font-family: 'Playfair Display', serif;
-    margin-top: 30px;
     margin-bottom: 120px;
     line-height: 200%;
 }
